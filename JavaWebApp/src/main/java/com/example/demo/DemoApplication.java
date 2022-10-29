@@ -12,6 +12,12 @@ public class DemoApplication {
 		String name = "simo";
 
 		System.out.println(name);
+
+		SpringApplication.run(DemoApplication.class, args);
+		String DBPassword = "Admin@1234";
+
+		System.out.println("Hello");
+		System.out.println("World");
 	}
 
 }
